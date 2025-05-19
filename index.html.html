@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>شهاداتي من Udemy</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
+    body {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      font-family: 'Cairo', sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      direction: rtl;
+      color: #fff;
+    }
+    .container {
+      background: rgba(255, 255, 255, 0.1);
+      box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+      border-radius: 20px;
+      padding: 20px 30px;
+      max-width: 380px;
+      text-align: center;
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      transition: transform 0.3s ease;
+    }
+    .container:hover {
+      transform: scale(1.05);
+      box-shadow: 0 12px 40px rgba(0,0,0,0.4);
+    }
+    h1 {
+      margin-bottom: 35px;
+      font-weight: 900;
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+      text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+    }
+    .links-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .links-list li {
+      margin: 18px 0;
+    }
+    .links-list a {
+      position: relative;
+      text-decoration: none;
+      color: #fff;
+      font-weight: 700;
+      font-size: 1.2em;
+      padding: 20px 45px;
+      border-radius: 50px;
+      display: inline-block;
+      background: linear-gradient(45deg, #ff6a00, #ee0979);
+      box-shadow: 0 4px 15px rgba(255, 106, 0, 0.5);
+      transition: all 0.4s ease;
+      overflow: hidden;
+      letter-spacing: 0.05em;
+      user-select: none;
+    }
+    .links-list a::before {
+      content: "";
+      position: absolute;
+      left: -100%;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(255, 255, 255, 0.3);
+      transform: skewX(-20deg);
+      transition: left 0.5s ease;
+      z-index: 0;
+      border-radius: 50px;
+    }
+    .links-list a:hover::before {
+      left: 150%;
+    }
+    .links-list a:hover {
+      box-shadow: 0 6px 25px rgba(238, 9, 121, 0.7);
+      transform: translateY(-3px);
+      color: #fff;
+      z-index: 1;
+    }
+    footer {
+      margin-top: 40px;
+      font-size: 1rem;
+
+      color: rgb(255, 255, 255);
+      letter-spacing: 0.05em;
+    }
+    @media (max-width: 480px) {
+      .container {
+        padding: 30px 20px;
+        max-width: 90vw;
+      }
+      h1 {
+        font-size: 1.8rem;
+      }
+      .links-list a {
+        font-size: 1em;
+        padding: 12px 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+ <div class="container">
+    <h1>شهاداتي من Udemy</h1>
+    <ul class="links-list">
+      <li><a href="https://www.udemy.com/certificate/UC-527a5735-504e-4819-85fd-4d29a70fa76c/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=email" target="_blank" rel="noopener noreferrer">Certificate 1</a></li>
+      <li><a href="https://www.udemy.com/certificate/UC-85b97c86-c1af-4ff8-9c84-6d12a4f3fd31/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=ema" target="_blank" rel="noopener noreferrer">Certificate 2</a></li>
+      <li><a href="https://www.udemy.com/certificate/UC-0474463d-3efc-4c1b-8516-82e214b57904/?utm_source=sendgrid.com&utm_medium=email&utm_campaig" target="_blank" rel="noopener noreferrer">Certificate 3</a></li>
+      <li><a href="https://www.udemy.com/certificate/UC-751597a2-2389-4b71-aab9-aadb32a66868/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=email" target="_blank" rel="noopener noreferrer">Certificate 4</a></li>
+    </ul>
+    <footer>Compiled by Khaled Nasr Abdel Latif Nasr Salem</footer>
+  </div>
+</body>
+</html>
+
